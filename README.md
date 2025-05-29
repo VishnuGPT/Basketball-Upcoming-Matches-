@@ -1,10 +1,8 @@
 Project Title:- Basketball Upcoming Matches
 
-Description:- Displays upcoming NBA games using Balldontlie API(https://www.balldontlie.io/)
+Description:- Displays upcoming NBA games using Balldontlie API(https://www.balldontlie.io/).
+Includes Date, time of the match and Teams Playing.
 
-  Includes Date and time of the match
-              
-  Teams Playing
 
 |How to run locally?|
 
@@ -24,9 +22,13 @@ In cmd
 
 |Dependencies|
 
-                     npm install
+1->
+                     
+    npm install
+2->    
 
-           https://tailwindcss.com/docs/installation/using-vite (Using vite)
+    https://tailwindcss.com/docs/installation/using-vite 
+3->
 
      npm install @balldontlie/sdk
 

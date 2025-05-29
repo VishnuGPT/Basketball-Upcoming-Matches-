@@ -2,9 +2,9 @@ Project Title:- Basketball Upcoming Matches
 
 Description:- Displays upcoming NBA games using Balldontlie API(https://www.balldontlie.io/)
 
-              Includes Date and time of the match
+  Includes Date and time of the match
               
-              Teams Playing
+  Teams Playing
 
 |How to run locally?|
 
@@ -24,11 +24,11 @@ In cmd
 
 |Dependencies|
 
-1->npm install
+                     npm install
 
-2->https://tailwindcss.com/docs/installation/using-vite (Using vite)
+           https://tailwindcss.com/docs/installation/using-vite (Using vite)
 
-3->npm install @balldontlie/sdk
+     npm install @balldontlie/sdk
 
 
 |Api Setup|
@@ -37,10 +37,9 @@ Signup in https://www.balldontlie.io/ get your api code
 
 In documentation of Balldontlie check out for Games code
 
-(
-import { BalldontlieAPI } from "@balldontlie/sdk";
-const api = new BalldontlieAPI({ apiKey: "YOUR_API_KEY" });
-const games = await api.nba.getGames(); //used in Content.jsx 
-)
+            import { BalldontlieAPI } from "@balldontlie/sdk";
+            const api = new BalldontlieAPI({ apiKey: "YOUR_API_KEY" });
+            const games = await api.nba.getGames(); //used in Content.jsx 
+
 
 |npm run dev|
